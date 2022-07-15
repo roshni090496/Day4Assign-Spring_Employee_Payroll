@@ -1,21 +1,30 @@
 package com.example.day4assignspringemployeepayroll.service;
 
+import com.example.day4assignspringemployeepayroll.dto.EmployeeDTO;
 import com.example.day4assignspringemployeepayroll.model.Employee;
 
 import java.util.List;
 
 public interface iEmployeeService {
-    String EmployeeMessage();
+//    String EmployeeMessage();
+//
+//    //    *****UC2*****
+//    Employee findEmployeeById(Integer id);
+//
+//    Employee saveEmployees(Employee employee);
+//
+//    List<Employee> findEmployees();
+//
+//    Employee editEmployee(Employee employee, Integer id);
+//
+//    String deleteEmployee(Integer id);
 
-    //    *****UC2*****
-    Employee findEmployeeById(Integer id);
+    //UC4
+    List<Employee> getEmployeeData();
 
-    Employee saveEmployees(Employee employee);
+    Employee getEmployeePayrollDataById(int empId);
 
-    List<Employee> findEmployees();
+    Employee createEmployeePayrollData(EmployeeDTO employeeDTO);
 
-    Employee editEmployee(Employee employee, Integer id);
-
-    String deleteEmployee(Integer id);
-
- }
+    Employee updateEmployeePayrollData(EmployeeDTO employeeDTO);
+}
