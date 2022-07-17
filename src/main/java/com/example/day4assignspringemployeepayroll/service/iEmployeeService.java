@@ -6,10 +6,10 @@ import com.example.day4assignspringemployeepayroll.model.Employee;
 import java.util.List;
 
 public interface iEmployeeService {
-//    String EmployeeMessage();
+//   String EmployeeMessage();
 //
-//    //    *****UC2*****
-//    Employee findEmployeeById(Integer id);
+//     // *****UC2*****
+//   Employee findEmployeeById(Integer id);
 //
 //    Employee saveEmployees(Employee employee);
 //
@@ -19,7 +19,7 @@ public interface iEmployeeService {
 //
 //    String deleteEmployee(Integer id);
 
-    //UC4
+    //***********UC4************
     List<Employee> getEmployeeData();
 
     Employee getEmployeePayrollDataById(int empId);
@@ -29,4 +29,4 @@ public interface iEmployeeService {
     Employee updateEmployeePayrollData(int empId, EmployeeDTO employeeDTO);
 
     void deleteEmployeePayrollData(int empID);
-}
+ }

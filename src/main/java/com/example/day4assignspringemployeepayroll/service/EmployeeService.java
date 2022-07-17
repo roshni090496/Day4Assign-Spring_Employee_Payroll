@@ -8,15 +8,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class EmployeeService implements iEmployeeService{
+public class EmployeeService implements iEmployeeService {
+
     private List<Employee> employeeList = new ArrayList<>();
 //    @Autowired
 //    private EmployeeRepository employeeRepository;
+
+//           ***UC1******
+
 //    @Override
 //    public String EmployeeMessage(){
 //        return "Hello World!";
 //    }
-//    //    *****UC2*****
+
+//    *****UC2*****
+
 //    @Override
 //    public Employee findEmployeeById(Integer id) {
 //        return employeeRepository.findById(id).orElse(null);
@@ -43,17 +49,18 @@ public class EmployeeService implements iEmployeeService{
 //        return "Data Deleted";
 //    }
 
-    //UC4
+//    ********UC4*********
+
 //    @Override
 //    public List<Employee> getEmployeeData() {
 //        List<Employee> empDataList = new ArrayList<>();
-//        empDataList.add(new Employee(1, new EmployeeDTO("Roshni", "female", "Engg.", 35000)));
+//        empDataList.add(new Employee(1, new EmployeeDTO("Anshul", "male", "Engg.", 35000)));
 //        return empDataList;
 //    }
 //    @Override
 //    public Employee getEmployeePayrollDataById(int empId) {
 //        Employee  empData= null;
-//        empData= new Employee (1, new EmployeeDTO("Roshni", "female", "Eng", 35000));
+//        empData= new Employee (1, new EmployeeDTO("Anshul", "male", "Eng", 35000));
 //        return empData;
 //    }
 //    @Override
@@ -72,6 +79,8 @@ public class EmployeeService implements iEmployeeService{
 //    public void deleteEmployeePayrollData(int empID) {
 //    }
 
+//      ******UC5*******
+
     @Override
     public List<Employee> getEmployeeData() {
         return employeeList;
@@ -87,16 +96,29 @@ public class EmployeeService implements iEmployeeService{
         employeeList.add(empData);
         return empData;
     }
+ //   @Override
+//    public Employee updateEmployeePayrollData(int empId, EmployeeDTO employeeDTO) {
+//        Employee empData = this.getEmployeePayrollDataById(empId);
+//        empData.setName(employeeDTO.name);
+//        empData.setSalary(employeeDTO.salary);
+//        employeeList.set(empId - 1, empData);
+//        return empData;
+//    }
     @Override
-    public Employee updateEmployeePayrollData(int empId, EmployeeDTO employeeDTO) {
+    public void deleteEmployeePayrollData(int empID) {
+        employeeList.remove(empID - 1);
+    }
+
+    //********UC6***********
+
+    @Override
+    public Employee updateEmployeePayrollData(int empId, EmployeeDTO employeeDTO){
         Employee empData = this.getEmployeePayrollDataById(empId);
         empData.setName(employeeDTO.name);
+        empData.setDepartment(employeeDTO.department);
+        empData.setGender(employeeDTO.gender);
         empData.setSalary(employeeDTO.salary);
         employeeList.set(empId - 1, empData);
         return empData;
-    }
-    @Override
-    public void deleteEmployeePayrollData(int empID) {
-        employeeList.remove(empID-1);
     }
 }

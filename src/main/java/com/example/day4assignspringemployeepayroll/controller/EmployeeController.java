@@ -17,10 +17,11 @@ public class EmployeeController {
     @Autowired
     EmployeeService service;
     List <Employee> empDatalist = new ArrayList<>();
-    //@RequestMapping("/welcome")
-    //public String displayMessage(){
-        //return service.EmployeeMessage();
-   // }
+//    ********UC1********
+//    @RequestMapping("/welcome")
+//    public String displayMessage(){
+//        return service.EmployeeMessage();
+//    }
     /**** UC2 *****/
 
 //    @GetMapping("/employeeById/{id}")
@@ -47,12 +48,13 @@ public class EmployeeController {
 //        return "Data Deleted";
 //    }
 
-    // UC3
+//      *******UC3********
 
-    //    @GetMapping("/get/{empId}")
+//
+//    @GetMapping("/get/{empId}")
 //    public ResponseEntity <ResponseDTO> getEmployeePayrollData(@PathVariable("empId") int empId) {
 //        Employee empData = null;
-//        empData = new Employee(1, new EmployeeDTO("Roshni", "Female", "HR", 35000));
+//        empData = new Employee(1, new EmployeeDTO("Anshul", "Male", "HR", 35000));
 //        ResponseDTO respDTO = new ResponseDTO("Get Call For ID Successful", empData);
 //        return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
 //    }
@@ -76,7 +78,8 @@ public class EmployeeController {
 //        ResponseDTO respOTO= new ResponseDTO("Deleted Successfully", "Deleted id: "+empId);
 //        return new ResponseEntity<ResponseDTO>(respOTO, HttpStatus.OK);
 //    }
-    //UC4
+
+//    **********UC4***********
 
     @RequestMapping(value = {"","/", "/get"})
     public ResponseEntity<ResponseDTO> getEmployeePayrollData() {
@@ -115,5 +118,4 @@ public class EmployeeController {
         ResponseDTO respDTO= new ResponseDTO("Deleted Successfully", "Deleted id: "+empId);
         return new ResponseEntity<ResponseDTO>(respDTO, HttpStatus.OK);
     }
-}
-
+    }

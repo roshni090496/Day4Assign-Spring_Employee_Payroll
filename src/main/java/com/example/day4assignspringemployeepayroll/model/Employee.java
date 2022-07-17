@@ -66,10 +66,10 @@ public class Employee {
         this.salary = salary;
     }
 
-//    public Employee(String name, String department, String gender, long salary) {
-//        this.name = name;
-//        this.department = department;
-//        this.gender = gender;
-//        salary = salary;
-//    }
+    public Employee(String name, String department, String gender, long salary) {
+        this.name = name;
+        this.department = department;
+        this.gender = gender;
+        salary = salary;
+    }
 }
