@@ -1,0 +1,48 @@
+2022-2022-07 20:30 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:55] Starting Day4AssignSpringEmployeePayrollApplication using Java 18.0.1.1 on DESKTOP-A3K6N6F with PID 8552 (D:\SpringBootProject\Day4Assign-SpringEmployeePayroll\target\classes started by Roshni in D:\SpringBootProject\Day4Assign-SpringEmployeePayroll)
+2022-2022-07 20:30 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:634] No active profile set, falling back to 1 default profile: "default"
+2022-2022-07 20:30 [INFO][restartedMain][o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-2022-07 20:30 [INFO][restartedMain][o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-2022-07 20:30 [INFO][restartedMain][o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-2022-07 20:30 [INFO][restartedMain][o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 181 ms. Found 1 JPA repository interfaces.
+2022-2022-07 20:30 [INFO][restartedMain][o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8081 (http)
+2022-2022-07 20:30 [INFO][restartedMain][o.a.c.c.StandardService:173] Starting service [Tomcat]
+2022-2022-07 20:30 [INFO][restartedMain][o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-2022-07 20:30 [INFO][restartedMain][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2022-2022-07 20:30 [INFO][restartedMain][o.s.b.w.s.c.ServletWebServerApplicationContext:292] Root WebApplicationContext: initialization completed in 6052 ms
+2022-2022-07 20:30 [INFO][restartedMain][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-2022-07 20:30 [INFO][restartedMain][o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-2022-07 20:30 [INFO][restartedMain][o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-2022-07 20:30 [INFO][restartedMain][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+2022-2022-07 20:31 [INFO][restartedMain][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+2022-2022-07 20:31 [INFO][restartedMain][o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-2022-07 20:31 [INFO][restartedMain][o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-2022-07 20:31 [INFO][restartedMain][o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-2022-07 20:31 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-07 20:31 [INFO][restartedMain][o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2022-2022-07 20:31 [INFO][restartedMain][o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8081 (http) with context path ''
+2022-2022-07 20:31 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:61] Started Day4AssignSpringEmployeePayrollApplication in 25.819 seconds (JVM running for 30.72)
+2022-2022-07 20:31 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:13] hello bridgelabz
+2022-2022-07 20:36 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:55] Starting Day4AssignSpringEmployeePayrollApplication using Java 18.0.1.1 on DESKTOP-A3K6N6F with PID 8084 (D:\SpringBootProject\Day4Assign-SpringEmployeePayroll\target\classes started by Roshni in D:\SpringBootProject\Day4Assign-SpringEmployeePayroll)
+2022-2022-07 20:36 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:640] The following 1 profile is active: "dev"
+2022-2022-07 20:36 [INFO][restartedMain][o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-2022-07 20:36 [INFO][restartedMain][o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-2022-07 20:36 [INFO][restartedMain][o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-2022-07 20:36 [INFO][restartedMain][o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-2022-07 20:36 [INFO][restartedMain][o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8081 (http)
+2022-2022-07 20:36 [INFO][restartedMain][o.a.c.c.StandardService:173] Starting service [Tomcat]
+2022-2022-07 20:36 [INFO][restartedMain][o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-2022-07 20:36 [INFO][restartedMain][o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2022-2022-07 20:36 [INFO][restartedMain][o.s.b.w.s.c.ServletWebServerApplicationContext:292] Root WebApplicationContext: initialization completed in 3369 ms
+2022-2022-07 20:36 [INFO][restartedMain][o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-2022-07 20:36 [INFO][restartedMain][o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-2022-07 20:36 [INFO][restartedMain][o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-2022-07 20:36 [INFO][restartedMain][c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+2022-2022-07 20:36 [INFO][restartedMain][c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+2022-2022-07 20:36 [INFO][restartedMain][o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-2022-07 20:36 [INFO][restartedMain][o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-2022-07 20:36 [INFO][restartedMain][o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-2022-07 20:36 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-07 20:36 [INFO][restartedMain][o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2022-2022-07 20:36 [INFO][restartedMain][o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8081 (http) with context path ''
+2022-2022-07 20:36 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:61] Started Day4AssignSpringEmployeePayrollApplication in 13.621 seconds (JVM running for 16.981)
+2022-2022-07 20:36 [INFO][restartedMain][c.e.d.Day4AssignSpringEmployeePayrollApplication:13] hello bridgelabz
