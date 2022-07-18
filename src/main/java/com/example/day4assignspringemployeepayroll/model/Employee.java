@@ -16,10 +16,14 @@ public class Employee {
 
     public Employee() {
     }
+    /*
 
     public String getName() {
         return name;
     }
+
+     */
+
     public Employee(int empId, EmployeeDTO employeeDTO) {
         this.id = empId;
         this.name = employeeDTO.name;
@@ -27,8 +31,10 @@ public class Employee {
         this.gender = employeeDTO.gender;
         this.salary = employeeDTO.salary;
     }
-    @Id
-    @GeneratedValue
+
+    @Id // primary key
+    @GeneratedValue // auto value
+
     public int getId() {
         return id;
     }
@@ -37,6 +43,9 @@ public class Employee {
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -64,12 +73,15 @@ public class Employee {
 
     public void setSalary(long salary) {
         this.salary = salary;
-    }
 
-    public Employee(String name, String department, String gender, long salary) {
+   /* public Employee(String name, String department, String gender, long salary) {
+        this.id = id;
         this.name = name;
         this.department = department;
         this.gender = gender;
-        salary = salary;
+        this.salary = salary;
+    }
+   */
+
     }
 }
